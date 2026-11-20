@@ -2,28 +2,28 @@
 class Skigard < Formula
   desc "Lockfile and review gate for agent skills"
   homepage "https://github.com/ambierhq/skigard"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ambierhq/skigard/releases/download/v0.1.1/skigard_0.1.1_darwin_arm64.tar.gz"
-      sha256 "be1ee02f3a04a7e865e29ca0c6d7d481ffa7ecabdf61f6f846cfdeab98a041a2"
+      url "https://github.com/ambierhq/skigard/releases/download/v0.1.2/skigard_0.1.2_darwin_arm64.tar.gz"
+      sha256 "cc531e6cffa98e1c28545c9aba60faf637929b0529b31e0d7a7ff7508a213b80"
     end
     on_intel do
-      url "https://github.com/ambierhq/skigard/releases/download/v0.1.1/skigard_0.1.1_darwin_amd64.tar.gz"
-      sha256 "e4fb9fee529113b9b0397c4961f9858976fcd6ac7295c5cf96b30dee62893feb"
+      url "https://github.com/ambierhq/skigard/releases/download/v0.1.2/skigard_0.1.2_darwin_amd64.tar.gz"
+      sha256 "d59f8e199bc4a78f556b9a6c6576d863f71490e2e66ceb6abb250014f3fb9817"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ambierhq/skigard/releases/download/v0.1.1/skigard_0.1.1_linux_arm64.tar.gz"
-      sha256 "b47576403903b8e2c9668464a68fe35fdd8ba763ee50ab67c9cd017f2589c54b"
+      url "https://github.com/ambierhq/skigard/releases/download/v0.1.2/skigard_0.1.2_linux_arm64.tar.gz"
+      sha256 "fa95b21adece820ea4ae29aed316547f8ca45ff6e9686ce2d06eb1d232f7eb54"
     end
     on_intel do
-      url "https://github.com/ambierhq/skigard/releases/download/v0.1.1/skigard_0.1.1_linux_amd64.tar.gz"
-      sha256 "aaba12fad21e4a9997ac0c4764f7a33202f1371c143fd27144875bc814b56024"
+      url "https://github.com/ambierhq/skigard/releases/download/v0.1.2/skigard_0.1.2_linux_amd64.tar.gz"
+      sha256 "1bec9eda85bc1f92629b942447057184f80127936afd655470357151ee6e39b4"
     end
   end
 
